@@ -1,0 +1,38 @@
+Script started on 2021-02-12 14:14:26-05:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="80" LINES="24"]
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ cc assignmnet2a.c
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ ./a.out $[K&
+[1] 26107
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ parent pid: 26107
+child pid: 26108
+
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 229742 25928 25927  0 80   0 -  2329 -      pts/20   00:00:00 bash
+0 S 229742 26107 25928  0 80   0 -   570 hrtime pts/20   00:00:00 a.out
+1 Z 229742 26108 26107  0 80   0 -     0 -      pts/20   00:00:00 a.ou <defunct>
+0 R 229742 26144 25928  0 80   0 -  2638 -      pts/20   00:00:00 ps
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ ps -l./a.out &cc assignmnet2a.c[2Pscript ass1.txt[10Pclearpico ass1.c[7Pexitstrace ./a.out[4Pcat ass1.cmore output1.txt[1Pinput1.txt[8P./a.outgcc ass1.cstrace ./a.out[1P./a.outmore input1.txt[8P./a.outgcc ass1.c[3P./a.outmore input1.txt[2Pstrace./a.out ./a.out[4Pgcc ass1.c[3P./a.outmore input1.txtoutput1.txt[6Pcat ass1.cstrace ./a.outexit[Kpico ass1.c[6Pclearscript ass1.txtcc assignmnet2a.c[8P./a.out &[4Pps -l[Kcc assignmnet2a.c -o assignmnet2a
+[1]+  Done                    ./a.out
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ cc assignmnet2a[Kb.x[Kc
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ ./a.out
+sh: 1: ./zoom: not found
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 229742 25928 25927  0 80   0 -  2329 -      pts/20   00:00:00 bash
+0 S 229742 26472 25928  0 80   0 -   537 -      pts/20   00:00:00 a.out
+0 S 229742 26475 26472  0 80   0 -   598 -      pts/20   00:00:00 sh
+0 R 229742 26477 26475  0 80   0 -  2638 -      pts/20   00:00:00 ps
+sh: 1: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+
+
+updated list of processes with their states
+
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 229742 25928 25927  0 80   0 -  2329 -      pts/20   00:00:00 bash
+0 S 229742 26472 25928  0 80   0 -   570 -      pts/20   00:00:00 a.out
+0 S 229742 26540 26472  0 80   0 -   598 -      pts/20   00:00:00 sh
+0 R 229742 26541 26540  0 80   0 -  2638 -      pts/20   00:00:00 ps
+]0;patel3j@charlie: ~/Desktop[01;32mpatel3j@charlie[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2021-02-12 14:16:10-05:00 [COMMAND_EXIT_CODE="0"]
